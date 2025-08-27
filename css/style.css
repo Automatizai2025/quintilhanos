@@ -44,6 +44,45 @@ main {
     margin-bottom: 0.5rem;
 }
 
+#hero .cta-buttons {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+#hero .cta-primary, #hero .cta-secondary {
+    padding: 12px 24px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s, transform 0.2s;
+    display: inline-block;
+}
+
+#hero .cta-primary {
+    background-color: #0D47A1;
+    color: #FFFFFF;
+}
+
+#hero .cta-primary:hover {
+    background-color: #1976D2;
+    transform: translateY(-2px);
+}
+
+#hero .cta-secondary {
+    background-color: transparent;
+    color: #0D47A1;
+    border: 2px solid #0D47A1;
+}
+
+#hero .cta-secondary:hover {
+    background-color: #0D47A1;
+    color: #FFFFFF;
+    transform: translateY(-2px);
+}
+
 /* Estilos do Rodapé */
 footer {
     background-color: #F5F5F5;
