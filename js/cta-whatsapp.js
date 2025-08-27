@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
     // --- DADOS DA EMPRESA (MANTER ATUALIZADO) ---
-    // Substituir pelo número de WhatsApp oficial da Quintilhano's.
-    const whatsappNumber = '5511999999999'; // Formato internacional, sem '+' ou espaços.
+    // Número de WhatsApp oficial da Quintilhano's.
+    const whatsappNumber = '5547992772453'; // Formato internacional, sem '+' ou espaços.
     const message = 'Olá! Gostaria de fazer um orçamento.';
     // ---------------------------------------------
 
